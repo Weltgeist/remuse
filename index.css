@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif ;
+}
+
 .style-1 {
   background-color: lightblue;
   color: white;
@@ -6,4 +10,27 @@
 nav {
   color: white;
   text-decoration: none;
+}
+
+nav a {
+  text-decoration: uppercase;
+}
+
+main section h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.presentation h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.presentation h2{
+  font-size: 35px;
+}
+
+#contacts a {
+  font-size: 12px;
+  font-weight: lighter;
 }
