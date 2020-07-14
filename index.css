@@ -53,3 +53,23 @@ main section h2 {
 h2 {
   margin-top: 0;
 }
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer div {
+  display: inline-block;
+  width: 49%;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.banner section .side {
+  display: inline-block;
+  width: 49%;
+}
