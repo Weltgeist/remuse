@@ -76,4 +76,15 @@ footer ul li a {
 .banner section {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.experience div {
+  display: flex;
+  align-items: flex-start;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
 }
