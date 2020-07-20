@@ -34,6 +34,8 @@ main section h2 {
 #contacts a {
   font-size: 12px;
   font-weight: lighter;
+  color: white;
+  margin: 5px 0;
 }
 
 .container {
@@ -50,17 +52,6 @@ footer {
   background-color: black;
   color: white;
 }
-
-footer div {
-  display: inline-block;
-  width: 49%;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: white;
-}
-
 
 .menu {
   display: flex;
@@ -85,6 +76,17 @@ footer ul li a {
 }
 
 .desc {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-links {
   display: flex;
   flex-direction: column;
 }
