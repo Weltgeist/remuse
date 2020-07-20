@@ -73,3 +73,14 @@ footer ul li a {
   display: inline-block;
   width: 49%;
 }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.menu-link { 
+  margin-left: 10px; 
+} 
