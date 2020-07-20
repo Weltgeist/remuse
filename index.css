@@ -106,3 +106,12 @@ footer .container {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+section {
+  padding: 0 20px;
+}
+
+h1 + h2 {
+  font-size: 26px;
+}
+
