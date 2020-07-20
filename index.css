@@ -61,10 +61,6 @@ footer ul li a {
   color: white;
 }
 
-.banner section .side {
-  display: inline-block;
-  width: 49%;
-}
 
 .menu {
   display: flex;
@@ -76,3 +72,8 @@ footer ul li a {
 .menu-link { 
   margin-left: 10px; 
 } 
+
+.banner section {
+  display: flex;
+  justify-content: space-between;
+}
