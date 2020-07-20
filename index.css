@@ -14,16 +14,8 @@ body {
 
 nav {
   color: white;
-  text-decoration: none;
 }
 
-nav ul li {
-  display: inline-block;
-}
-
-nav a {
-  text-decoration: uppercase;
-}
 
 main section h2 {
   font-size: 35px;
