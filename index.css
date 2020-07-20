@@ -90,3 +90,19 @@ footer .container {
   display: flex;
   flex-direction: column;
 }
+
+.skill {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid white;
+  width: 200px;
+  margin: 10px 0;
+}
+
+.skills  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
