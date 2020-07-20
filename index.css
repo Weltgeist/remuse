@@ -7,6 +7,12 @@ body {
   font-family: 'Open Sans', sans-serif ;
 }
 
+/* Default*/
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .style-1 {
   background-color: lightblue;
   color: white;
@@ -40,7 +46,7 @@ main section h2 {
 
 .container {
   margin: 0 auto;
-  width: 700px;
+  /*width: 1000px;*/
   padding: 40px 0;
 }
 
@@ -72,14 +78,35 @@ footer {
   align-items: center;
 }
 
-.experience div {
+.experience  {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.small{
+  flex: 1;
+}
+
+.wide{
+  flex: 2;
+}
+.experience div img {
+  margin: 0 10px;
 }
 
 .desc {
   display: flex;
   flex-direction: column;
+}
+.desc p {
+  margin: 0;
 }
 
 footer .container {
@@ -119,4 +146,22 @@ h1 + h2 {
 
 .menu-link:hover { 
   background-color: blue;
+  padding: 10px;
+}
+
+.menu-link { 
+  transition-property:background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+.skill h5 {
+  flex: 1;
+  margin-right: 5px ;
+}
+.skill meter {
+  flex: 2;
+}
+
+.skill span {
+  flex: 1;
 }
