@@ -101,12 +101,16 @@ h2 {
 }
 
 .presentation a {
-    background-color: blue;
-    border-radius: 25px;
     color: white;
     text-decoration: none;
+}
+
+.button {
+    background-color: blue;
+    border-radius: 25px;
     width: 120px;
     height: 35px;
+    padding: 5px 10px;
 }
 
 
