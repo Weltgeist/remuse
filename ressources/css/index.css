@@ -23,7 +23,7 @@ h2 {
 /*       */
 
 .style-1 {
-    background-color: lightblue;
+    background: linear-gradient( lightblue, rgb(59, 151, 207));
     color: white;
 }
 
