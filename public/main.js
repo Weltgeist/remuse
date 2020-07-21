@@ -16,6 +16,146 @@ const context = {
       name: "Matlab",
       value: 10,
       percent: 100
+    },
+    {
+      name: "Simulink",
+      value: 9,
+      percent: 90
+    },
+    {
+      name: "C",
+      value: 7,
+      percent: 70
+    },
+    {
+      name: "C++",
+      value: 8,
+      percent: 80
+    },
+    {
+      name: "Python",
+      value: 7,
+      percent: 70
+    },
+    {
+      name: "Fortran",
+      value: 6,
+      percent: 60
+    },
+    {
+      name: "HTML",
+      value: 9,
+      percent: 90
+    },
+    {
+      name: "CSS",
+      value: 8,
+      percent: 80
+    },
+    {
+      name: "Javascript",
+      value: 8,
+      percent: 80
+    },
+    {
+      name: "Labview",
+      value: 6,
+      percent: 60
+    },
+    {
+      name: "React",
+      value: 1,
+      percent: 10
+    },
+    {
+      name: "Node",
+      value: 1,
+      percent: 10
+    },
+    {
+      name: "UML",
+      value: 7,
+      percent: 70
+    },
+    {
+      name: "Java",
+      value: 7,
+      percent: 70
+    },
+    {
+      name: "VBA",
+      value: 6,
+      percent: 60
+    },
+    {
+      name: "Yocto",
+      value: 8,
+      percent: 80
+    },
+    {
+      name: "Vagrant",
+      value: 7,
+      percent: 70
+    },
+    {
+      name: "VMBox",
+      value: 7,
+      percent: 70
+    },
+    {
+      name: "QNX",
+      value: 8,
+      percent: 80
+    },
+    {
+      name: "Odroidc2",
+      value: 9,
+      percent: 90
+    },
+    {
+      name: "STM32",
+      value: 5,
+      percent: 50
+    },
+    {
+      name: "TM4C123",
+      value: 7,
+      percent: 70
+    },
+    {
+      name: "PIC16F684",
+      value: 8,
+      percent: 80
+    },
+    {
+      name: "Arduino",
+      value: 8,
+      percent: 80
+    },
+    {
+      name: "Roborio",
+      value: 7,
+      percent: 70
+    },
+    {
+      name: "Beckhoff",
+      value: 6,
+      percent: 60
+    },
+    {
+      name: "Node",
+      value: 1,
+      percent: 10
+    },
+    {
+      name: "UML",
+      value: 7,
+      percent: 70
+    },
+    {
+      name: "Java",
+      value: 7,
+      percent: 70
     }
   ]
   
