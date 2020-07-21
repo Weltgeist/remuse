@@ -8,24 +8,24 @@
   <link rel="stylesheet" href="index.css" type="text/css"/>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
   <script id="exptemplateHB" type="text/x-handlebars-template">
+    {{#each experiences}}
     <div class="experience">
       <div class="column small">
-        <p>July 2018~Now</p>
-        <p>International</p>
-        <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGBZhibjnUZuQ/company-logo_200_200/0?e=2159024400&v=beta&t=Hun9oGD0r1_Hp2OMEwZvOf0jacz_rEHXNSm1e9EQ-jg" >
+        <p>{{this.date}}</p>
+        <p>{{this.location}}</p>
+        <img src="{{this.image}}" >
       </div>
       <div class="column wide">
-        <p>Eng. Consultant - Part time/Online</p>
-        <p>Upwork & Utest</p>
+        <p>{{this.jobTitle}}</p>
+        <p>{{this.workplace}}</p>
         <div class="desc">
-          <p>Offer engineering services in projects such as: Robotic Control System Design & Software development (C/C++/Matlab);
-            Mechanical design of movie props (Solidworks), Software Translation (C++/Python/Matlab)</p>
-          <p>Offer consulting expertise in Multiple S/W & H/W functional testing projects for products, applications & websites from
-            Amazon, Google, Slack, Applause & others. Report results of debug logs & visual feedback.</p>
-          <p>Sales & Marketing: Making bids, setting terms & prices, developing and implementing online marketing strategies</p>
+          {{#each this.jobDescription}}
+          <p>{{this}}</p>
+          {{/each}}
         </div>
       </div>
     </div>
+    {{/each}}
   </script>
   <script id="skilltemplateHB" type="text/x-handlebars-template">
     {{#each skills}}
