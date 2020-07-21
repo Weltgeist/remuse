@@ -1,169 +1,190 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+
+/* Default */
 
 body {
-  margin: 0;
-  font-family: 'Open Sans', sans-serif ;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/* Default*/
 p {
-  margin: 0;
-  padding: 0;
-}
-
-.style-1 {
-  background-color: lightblue;
-  color: white;
-}
-
-nav {
-  color: white;
-}
-
-
-main section h2 {
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.presentation h1{
-  font-size: 60px;
-  font-weight: bold;
-}
-
-.presentation h2{
-  font-size: 35px;
-}
-
-#contacts a {
-  font-size: 12px;
-  font-weight: lighter;
-  color: white;
-  margin: 5px 0;
-}
-
-.container {
-  margin: 0 auto;
-  width: 90%;
-  padding: 40px 0;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
-footer {
-  background-color: black;
-  color: white;
+
+/*       */
+
+.style-1 {
+    background-color: lightblue;
+    color: white;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  text-transform: uppercase;
+main section h2 {
+    font-size: 35px;
+    font-weight: bold;
 }
 
-.menu-link { 
-  margin-left: 10px;
-  color: white;
-  text-decoration: none; 
-} 
-
-.banner section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.experience  {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.small{
-  flex: 1;
-  margin-right: 10px;
-}
-
-.wide{
-  flex: 2;
-}
-.experience div img {
-  width: 200px;
-  
-}
-
-.desc {
-  display: flex;
-  flex-direction: column;
-}
-.desc p {
-  margin: 0;
-}
-
-footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.contact-links {
-  display: flex;
-  flex-direction: column;
-}
-
-.skill {
-  display: flex;
-  align-items: center;
-  border-radius: 10px;
-  border: 2px solid white;
-  width: 200px;
-  margin: 10px 0;
-}
-
-.skills  {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.container {
+    margin: 0 auto;
+    width: 90%;
+    padding: 40px 0;
 }
 
 section {
-  padding: 0 20px;
+    padding: 0 20px;
 }
 
-h1 + h2 {
-  font-size: 26px;
+h1+h2 {
+    font-size: 26px;
 }
 
-.menu-link:hover { 
-  background-color: blue;
-  padding: 10px;
+
+/* Nav */
+
+nav {
+    color: white;
 }
 
-.menu-link { 
-  transition-property:background-color;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in;
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
 }
+
+.menu-link {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    background-color: blue;
+    padding: 10px;
+}
+
+.menu-link {
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+
+/* Banner */
+
+.banner section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.presentation h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.presentation h2 {
+    font-size: 35px;
+}
+
+
+/* About */
+
+
+/* Skill */
+
+.skill {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 200px;
+    margin: 10px 0;
+}
+
 .skill h5 {
-  flex: 1;
-  margin-right: 5px ;
+    flex: 1;
+    margin-right: 5px;
 }
+
 .skill meter {
-  flex: 2;
+    flex: 2;
 }
 
 .skill span {
-  flex: 1;
+    flex: 1;
+}
+
+
+/*  Experience    */
+
+.experience {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.small {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.wide {
+    flex: 2;
+}
+
+.experience div img {
+    width: 200px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc p {
+    margin: 0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts a {
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    margin: 5px 0;
 }
