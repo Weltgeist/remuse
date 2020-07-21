@@ -80,10 +80,15 @@ nav {
 
 /* Banner */
 
+.banner {
+    height: 500px;
+}
+
 .banner section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .presentation h1,
@@ -115,6 +120,10 @@ h2 {
 
 
 /* About */
+
+#about {
+    height: 300px;
+}
 
 
 /* Skill */
@@ -191,6 +200,7 @@ h2 {
 footer {
     background-color: black;
     color: white;
+    height: 300px;
 }
 
 footer .container {

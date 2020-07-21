@@ -12,13 +12,13 @@
         {{#each experiences}}
         <div class="experience">
             <div class="column small">
-                <p>{{this.date}}</p>
-                <p>{{this.location}}</p>
+                <h5>{{this.date}}</h5>
+                <h6>{{this.location}}</h6>
                 <img src="{{this.image}}">
             </div>
             <div class="column wide">
-                <p>{{this.jobTitle}}</p>
-                <p>{{this.workplace}}</p>
+                <h5>{{this.jobTitle}}</h5>
+                <h6>{{this.workplace}}</h6>
                 <div class="desc">
                     {{#each this.jobDescription}}
                     <p>{{this}}</p>
