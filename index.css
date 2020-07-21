@@ -46,7 +46,7 @@ main section h2 {
 
 .container {
   margin: 0 auto;
-  /*width: 1000px;*/
+  width: 90%;
   padding: 40px 0;
 }
 
@@ -92,13 +92,15 @@ footer {
 
 .small{
   flex: 1;
+  margin-right: 10px;
 }
 
 .wide{
   flex: 2;
 }
 .experience div img {
-  margin: 0 10px;
+  width: 200px;
+  
 }
 
 .desc {
