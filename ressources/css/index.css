@@ -172,6 +172,14 @@ h2+h4 {
     flex: 1;
 }
 
+meter::-webkit-meter-bar {
+    border-radius: 10px;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: blue;
+}
+
 
 /*  Experience    */
 
