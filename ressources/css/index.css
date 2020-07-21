@@ -217,9 +217,29 @@ meter::-webkit-meter-optimum-value {
 /* Footer */
 
 footer {
-    background-color: black;
+    position: relative;
+    background: url(https://zacjohnson.com/wp-content/uploads/2018/06/bigstock-160165061.jpg);
+    background-size: contain;
+    background-position: center;
     color: white;
     height: 300px;
+}
+
+footer:before {
+    /* Overlay*/
+    position: absolute;
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+}
+
+footer * {
+    position: relative;
+    /* Makes elements display above overlay. */
 }
 
 footer .container {
