@@ -259,3 +259,14 @@ footer .container {
     color: white;
     margin: 5px 0;
 }
+
+@media screen and ( max-width: 768px) {
+    .banner {
+        height: auto;
+    }
+    .banner section {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+}
