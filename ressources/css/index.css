@@ -101,6 +101,11 @@ nav {
 h2 {
     margin: 0;
 }
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+}
 
 .presentation h1 {
     font-size: 3.75rem;
@@ -283,11 +288,19 @@ footer .container {
         flex-direction: column;
     }
     .banner .image {
-        order: 1;
-    }
-    .banner .presentation-container {
         order: 2;
     }
+    .banner .presentation-container {
+        order: 1;
+    }
+    .banner .presentation {
+        align-items: center;
+        text-align: center;
+    }
+    .button {
+        align-self: center;
+    }
+    
 } 
 
 
@@ -303,11 +316,19 @@ footer .container {
         flex-direction: column;
     }
     .banner .image {
-        order: 1;
-    }
-    .banner .presentation-container {
         order: 2;
     }
+    .banner .presentation-container {
+        order: 1;
+    }
+    .banner .presentation {
+        align-items: center;
+        text-align: center;
+    }
+    .button {
+        align-self: center;
+    }
+    
 } 
 
 @media screen and ( min-width: 768px) and ( max-width: 1024px) {
