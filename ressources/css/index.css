@@ -130,6 +130,9 @@ h2 {
     text-align: center;
 }
 
+.banner img {
+    border-radius: 25px;
+}
 
 /* About */
 
