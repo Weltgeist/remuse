@@ -301,6 +301,11 @@ footer .container {
         align-self: center;
     }
     
+    .button {
+        width: 90px;
+        height: 28px;
+    }
+    
 } 
 
 
@@ -335,6 +340,11 @@ footer .container {
     html {
         font-size: 14px;
     }
+    
+    .button {
+        width: 120px;
+        height: 30px;
+    }
 } 
 
 @media screen and ( min-width: 1024px) and ( max-width: 1600px) {
@@ -348,5 +358,8 @@ footer .container {
     html {
         font-size: 18px;
     }
-
+    .button {
+        width: 135px;
+        height: 40px;
+    }
 } 
