@@ -126,7 +126,8 @@ h2 {
     border-radius: 25px;
     width: 120px;
     height: 35px;
-    padding: 5px 10px;
+    padding-top: 5px;
+    text-align: center;
 }
 
 
