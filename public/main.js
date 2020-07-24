@@ -135,6 +135,16 @@ const context = {
       percent: 70
     },
     {
+      name: "AxureRP",
+      value: 8,
+      percent: 80
+    },
+    {
+      name: "Figma",
+      value: 2,
+      percent: 20
+    },
+    {
       name: "QNX",
       value: 8,
       percent: 80
@@ -188,6 +198,56 @@ const context = {
       name: "Java",
       value: 7,
       percent: 70
+    },
+    {
+      name: "Express",
+      value: 1,
+      percent: 10
+    },
+    {
+      name: "Handlebar",
+      value: 9,
+      percent: 90
+    },
+    {
+      name: "MySQL",
+      value: 6,
+      percent: 60
+    },
+    {
+      name: "MangoDB",
+      value: 1,
+      percent: 10
+    },
+    {
+      name: "Mocha",
+      value: 1,
+      percent: 10
+    },
+    {
+      name: "MongoDB",
+      value: 1,
+      percent: 10
+    },
+    {
+      name: "Bootstrap",
+      value: 1,
+      percent: 10
+    },
+    {
+      name: "Sass",
+      value: 1,
+      percent: 10
+    }, 
+    {
+      name: "Bulma",
+      value: 2,
+      percent: 20
+    }, 
+    {
+      name: "MaterialUI",
+      value: 4,
+      percent: 40
     }
   ]
   
