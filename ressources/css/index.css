@@ -289,9 +289,12 @@ footer .container {
 }
 
 .contact-links {
+    margin-right: 20%;
+}
+
+.contact-links ul {
     display: flex;
     flex-direction: column;
-    margin-right: 20%;
 }
 
 #contacts a {
@@ -304,6 +307,14 @@ footer .container {
 .logo-small {
     width: 40px;
 }
+
+
+.contact-links li {
+    list-style: none;
+}
+
+
+
 
 @media only screen and ( max-width: 480px) {
     html {
