@@ -291,6 +291,7 @@ footer .container {
 .contact-links {
     display: flex;
     flex-direction: column;
+    margin-right: 20%;
 }
 
 #contacts a {
