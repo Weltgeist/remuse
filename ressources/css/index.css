@@ -302,6 +302,8 @@ footer .container {
     font-weight: lighter;
     color: white;
     margin: 5px 0;
+    display: inline-block;
+    height: 50px;
 }
 
 .logo-small {
