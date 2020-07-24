@@ -262,7 +262,7 @@ footer {
     background-size: contain;
     background-position: center;
     color: white;
-    height: 300px;
+    height: auto;
 }
 
 footer:before {
@@ -299,6 +299,11 @@ footer .container {
     color: white;
     margin: 5px 0;
 }
+
+.logo-small {
+    width: 40px;
+}
+
 @media only screen and ( max-width: 480px) {
     html {
         font-size: 10px;
