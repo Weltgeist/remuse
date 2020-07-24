@@ -313,6 +313,23 @@ footer .container {
     list-style: none;
 }
 
+footer li > a + p {
+    display: none;
+}
+footer li > a:hover {
+    display: inline-block;
+}
+
+footer li > a:hover + p {
+    display: inline-block;
+    position: absolute;
+    border: 1px solid white ;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(59, 151, 207);
+    padding: 5px 10px;
+    margin-left: 5px;
+}
 
 
 
