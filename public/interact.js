@@ -5,3 +5,15 @@ const skillsToOpen = [];
 keys.forEach(function(key){
   skillsToOpen.push(document.getElementById(key));
 })
+
+const skillsTreeOpen = (event) => {
+
+}
+
+const skillsTreeClose = (event) => {
+  
+}
+
+const skillTreeManager = (skillTree) => {
+  skillTree.addEventListener('click',skillsTreeOpen);
+}
