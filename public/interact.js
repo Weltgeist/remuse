@@ -1,7 +1,9 @@
 //Mouse and event interactions
 
-const keyOpen = ['control-system-open', 'web-dev-open', 'emb-dev-open', 'mechanical-eng-open'];
-const keyClose = ['control-system-close', 'web-dev-close', 'emb-dev-close', 'mechanical-eng-close'];
+//const keyOpen = ['control-system-open', 'web-dev-open', 'emb-dev-open', 'mechanical-eng-open'];
+//const keyClose = ['control-system-close', 'web-dev-close', 'emb-dev-close', 'mechanical-eng-close'];
+const keyOpen = ['web-dev-open'];
+const keyClose = ['web-dev-close'];
 
 const skillsToOpen = [];
 keyOpen.forEach(function(key){
@@ -14,14 +16,19 @@ keyClose.forEach(function(key){
 })
 
 const skillsTreeOpen = (event) => {
-  event.target.style.display = inline-block;
+  document.getElementById('skill-HB').style.display = 'flex';
 }
 
 const skillsTreeClose = (event) => {
-  event.target.style.display = none;
+  document.getElementById('skill-HB').style.display = 'none';
 }
 
-const skillTreeManager = (skillTree) => {
-  skillTree.addEventListener('click',skillsTreeOpen);
-  skillTree.addEventListener('click',skillsTreeClose);
+const skillTreeManager = (buttonToOpen,buttonToClose) => {
+  buttonToOpen.addEventListener('click',skillsTreeOpen);
+  buttonToClose.addEventListener('click',skillsTreeClose);
 }
+
+for (let i = 0; i < skillsToOpen.length; i++ ) {
+  skillTreeManager(skillsToOpen[i],skillsToClose[i]);
+}
+

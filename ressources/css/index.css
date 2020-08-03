@@ -220,6 +220,14 @@ meter::-webkit-meter-optimum-value {
     background: blue;
 }
 
+#web-dev-open:hover {
+    cursor: pointer;
+}
+
+#web-dev-close:hover {
+    cursor: pointer;
+}
+
 
 /*  Experience    */
 
@@ -430,3 +438,4 @@ footer li > a:hover + p {
         height: 40px;
     }
 } 
+
