@@ -193,6 +193,9 @@ h2+h4 {
 }
 
 .skills {
+}
+
+.skills-set {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

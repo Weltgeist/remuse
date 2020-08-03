@@ -30,12 +30,19 @@
         {{/each}}
     </script>
     <script id="skilltemplateHB" type="text/x-handlebars-template">
-        {{#each skills}}
-        <div class="skill">
-            <h5 class="lang">{{this.name}}</h5>
-            <meter min="0" max="10" value="{{this.value}}"></meter>
-            <span>{{this.percent}}%</span>
-        </div>
+        {{#each job}}
+            <h3 id="{{this.id}}" >{{this.name}}</h3>
+            <div class="skills-set">
+            {{#each ../skills}}
+                {{#ifEquals this.type ../this.id}}
+                <div class="skill">
+                    <h5 class="lang">{{this.name}}</h5>
+                    <meter min="0" max="10" value="{{this.value}}"></meter>
+                    <span>{{this.percent}}%</span>
+                </div>
+                {{/ifEquals}}
+            {{/each}}
+            </div>  
         {{/each}}
     </script>
     <script src="./public/main.js" defer></script>

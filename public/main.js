@@ -45,214 +45,265 @@ const context = {
 
   skills: [
     {
+      type: "control-eng", 
       name: "Matlab",
       value: 10,
       percent: 100
     },
     {
+      type: "control-eng",
       name: "Simulink",
       value: 9,
       percent: 90
     },
     {
+      type: "emb-dev", 
       name: "C",
       value: 7,
       percent: 70
     },
     {
+      type: "emb-dev", 
       name: "C++",
       value: 8,
       percent: 80
     },
     {
+      type: "web-dev", 
       name: "Python",
       value: 7,
       percent: 70
     },
     {
+      type: "control-eng", 
       name: "Fortran",
       value: 6,
       percent: 60
     },
     {
+      type: "web-dev",
       name: "HTML",
       value: 9,
       percent: 90
     },
     {
+      type: "web-dev", 
       name: "CSS",
       value: 8,
       percent: 80
     },
     {
+      type: "web-dev", 
       name: "Javascript",
       value: 8,
       percent: 80
     },
     {
+      type: "emb-dev", 
       name: "Labview",
       value: 6,
       percent: 60
     },
     {
+      type: "web-dev", 
       name: "React",
       value: 1,
       percent: 10
     },
     {
+      type: "web-dev", 
       name: "Node",
       value: 1,
       percent: 10
     },
     {
+      type: "emb-dev", 
       name: "UML",
       value: 7,
       percent: 70
     },
     {
+      type: "emb-dev", 
       name: "Java",
       value: 7,
       percent: 70
     },
     {
+      type: "emb-dev", 
       name: "VBA",
       value: 6,
       percent: 60
     },
     {
+      type: "emb-dev",
       name: "Yocto",
       value: 8,
       percent: 80
     },
     {
+      type: "web-dev", 
       name: "Vagrant",
       value: 7,
       percent: 70
     },
     {
+      type: "web-dev", 
       name: "VMBox",
       value: 7,
       percent: 70
     },
     {
+      type: "web-dev",
       name: "AxureRP",
       value: 8,
       percent: 80
     },
     {
+      type: "web-dev", 
       name: "Figma",
       value: 2,
       percent: 20
     },
     {
+      type: "emb-dev", 
       name: "QNX",
       value: 8,
       percent: 80
     },
     {
+      type: "emb-dev", 
       name: "Odroidc2",
       value: 9,
       percent: 90
     },
     {
+      type: "emb-dev", 
       name: "STM32",
       value: 5,
       percent: 50
     },
     {
+      type: "emb-dev", 
       name: "TM4C123",
       value: 7,
       percent: 70
     },
     {
+      type: "emb-dev",
       name: "PIC16F684",
       value: 8,
       percent: 80
     },
     {
+      type: "emb-dev",
       name: "Arduino",
       value: 8,
       percent: 80
     },
     {
+      type: "emb-dev", 
       name: "Roborio",
       value: 7,
       percent: 70
     },
     {
+      type: "emb-dev", 
       name: "Beckhoff",
       value: 6,
       percent: 60
     },
     {
+      type: "emb-dev", 
       name: "Node",
       value: 1,
       percent: 10
     },
     {
-      name: "UML",
-      value: 7,
-      percent: 70
-    },
-    {
-      name: "Java",
-      value: 7,
-      percent: 70
-    },
-    {
+      type: "web-dev",
       name: "Express",
       value: 1,
       percent: 10
     },
     {
+      type: "web-dev", 
       name: "Handlebar",
       value: 9,
       percent: 90
     },
     {
+      type: "web-dev", 
       name: "MySQL",
       value: 6,
       percent: 60
     },
     {
+      type: "web-dev", 
       name: "MangoDB",
       value: 1,
       percent: 10
     },
     {
+      type: "web-dev", 
       name: "Mocha",
       value: 1,
       percent: 10
     },
     {
-      name: "MongoDB",
-      value: 1,
-      percent: 10
-    },
-    {
+      type: "web-dev", 
       name: "Bootstrap",
       value: 1,
       percent: 10
     },
     {
+      type: "web-dev", 
       name: "Sass",
       value: 1,
       percent: 10
     }, 
     {
+      type: "web-dev", 
       name: "Bulma",
       value: 2,
       percent: 20
     }, 
     {
+      type: "web-dev", 
       name: "MaterialUI",
       value: 4,
       percent: 40
+    },
+    {
+      type: "mech-eng",
+      name: "Solidworks",
+      value: 10,
+      percent: 100
     }
-  ]
+  ],
+
+  job: [
+    {
+      id:"web-dev",
+      name:"full stack web developper"
+    },
+    {
+      id: "emb-dev",
+      name:"embedded software developper"
+    },
+  {
+    id:"control-eng",
+    name:"control systems engineer"
+  },
+  {
+    id:"mech-eng",
+    name:"mechanical design engineer"
+  }
+]
   
 };
 
+Handlebars.registerHelper('ifEquals', function(arg1, arg2, options) {
+  return (arg1 == arg2) ? options.fn(this) : options.inverse(this);
+});
 
 
 const templateElement2 = document.getElementById('skilltemplateHB');
@@ -268,3 +319,5 @@ const templateSource = templateElement.innerHTML;
 const template = Handlebars.compile(templateSource);
 const compiledHtml = template(context);
 document.getElementById('exp-HB').innerHTML = compiledHtml;
+
+
