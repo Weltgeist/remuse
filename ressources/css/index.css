@@ -223,13 +223,10 @@ meter::-webkit-meter-optimum-value {
     background: blue;
 }
 
-#web-dev-open:hover {
+.clickable:hover {
     cursor: pointer;
 }
 
-#web-dev-close:hover {
-    cursor: pointer;
-}
 
 
 /*  Experience    */

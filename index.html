@@ -32,8 +32,8 @@
     <script id="skilltemplateHB" type="text/x-handlebars-template">
         {{#each job}}
             <h3>{{this.name}}</h3>
-            <div id="{{this.id}}-open">+</div>
-            <div id="{{this.id}}-close">-</div>
+            <div id="{{this.id}}-open" class="clickable">+</div>
+            <div id="{{this.id}}-close" class="clickable">-</div>
             <div id="{{this.id}}" class="skills-set">
             {{#each ../skills}}
                 {{#ifEquals this.type ../this.id}}
