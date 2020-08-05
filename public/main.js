@@ -2,6 +2,14 @@
 const context = {
   experiences: [
     {
+      date:"Aug. 2020~Now",
+      location:"Charlotte,NC,USA + Remote",
+      image: "https://images.carriercms.com/image/upload/h_150,q_100,f_auto/v1573562016/common/logos/carrier-corp-logo.png",
+      jobTitle: "Control Systems Engineer - HVAC Control Systems MBD Specialist",
+      workplace: "Carrier",
+      jobDescription: [ "Ensure controls system requirements are captured, structured, and modeled","Design and implement control algorithms via a rigorous analytical approach based on the MATLAB/Simulink platform", "Follow standard procedures to automatically generate embedded software control code from models for specific embedded platforms", "Use standard model-based verification tools and infrastructure including model-in-the-loop, software-in-the-loop, and hardware-in-the-loop simulation to validate the control algorithms"]
+    },
+    {
       date:"July 2018~Now",
       location:"International",
       image: "https://media-exp1.licdn.com/dms/image/C4E0BAQGBZhibjnUZuQ/company-logo_200_200/0?e=2159024400&v=beta&t=Hun9oGD0r1_Hp2OMEwZvOf0jacz_rEHXNSm1e9EQ-jg",
