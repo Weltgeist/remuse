@@ -26,6 +26,14 @@ const context = {
       jobDescription: [ "Develop, Design, Debug & Test embedded RTOS Aircraft Autopilot software on industrial aircraft simulator.", "Solve Software & Hardware Defects/Issues. Code optimisation & refactoring. Test Piloting for debugging purposes"]
     },
     {
+      date:"Aug. 2018~ Dec.2018",
+      location:"Montreal,QC,Canada",
+      image: "https://www.regal-aluminium.ca/wp-content/uploads/2015/08/polytechnique_droite_rgb-e1439824009605.png",
+      jobTitle: "Laboratory Teaching Assistant - MEC8381: Dynamical Modeling",
+      workplace: "Polytechnic Montreal",
+      jobDescription: [ "Teaching dynamical modeling to 30 students.","Overseeing case study on the motion of a bicycle stunt."]
+    },
+    {
       date:"May 2016~ Oct.2017",
       location:"Laval,QC,Canada",
       image: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Gebo_Cermex_logo.png",
@@ -48,6 +56,14 @@ const context = {
       jobTitle: "Robotics Volunteer/Robotics Coordinator",
       workplace: "Fusion Jeunesse",
       jobDescription: [ "Design a mobile robot from ‘’Top to bottom’’ and manage a team of students, technicians and engineers.", "Create mechanical/ electrical design, perform manufacturing/assembly and develop robot software (LabVIEW/Java).", "Plan budget and milestone." ]
+    },
+    {
+      date:"Aug.2013~Dec.2013",
+      location:"St-Eustache,QC,Canada",
+      image: "https://novabus.com/wp-content/uploads/2017/09/history-3-1-385x200.jpg",
+      jobTitle: "Project Engineer - Intern",
+      workplace: "Nova Bus, Division of Volvo Group Canada Inc. ",
+      jobDescription: [ "Present, explain and simplify technical product configuration changes to clients.","Update multiple progress reports; (Database, Word, Excel, VBA)","Manage the communication between the project and engineering teams; Analyse, follow-up on and resolve problems" ]
     }
   ],
 
