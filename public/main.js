@@ -34,6 +34,14 @@ const context = {
       jobDescription: [ "Teaching dynamical modeling to 30 students.","Overseeing case study on the motion of a bicycle stunt."]
     },
     {
+      date:"Sept.2017~ Now",
+      location:"Montreal,QC,Canada",
+      image: "https://i2.wp.com/www.hmsinsurance.com/wp-content/uploads/2016/07/Turo-Service-2.0.jpg?fit=960%2C616&ssl=1",
+      jobTitle: "Car Rental Owner - Part time/Online",
+      workplace: "Turo",
+      jobDescription: [ "Rent Cars on the popular P2P car sharing platform Turo." ]
+    },
+    {
       date:"May 2016~ Oct.2017",
       location:"Laval,QC,Canada",
       image: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Gebo_Cermex_logo.png",
@@ -299,6 +307,54 @@ const context = {
     {
       type: "mech-eng",
       name: "Solidworks",
+      value: 10,
+      percent: 100
+    },
+    {
+      type: "mech-eng",
+      name: "Catia",
+      value: 7,
+      percent: 70
+    },
+    {
+      type: "mech-eng",
+      name: "Autocad",
+      value: 6,
+      percent: 60
+    },
+    {
+      type: "mech-eng",
+      name: "Flashprint",
+      value: 10,
+      percent: 100
+    },
+    {
+      type: "mech-eng",
+      name: "3D Printer",
+      value: 8,
+      percent: 80
+    },
+    {
+      type: "mech-eng",
+      name: "CNC",
+      value: 5,
+      percent: 50
+    },
+    {
+      type: "mech-eng",
+      name: "Conventional Machining",
+      value: 9,
+      percent: 90
+    },
+    {
+      type: "mech-eng",
+      name: "Ansys",
+      value: 7,
+      percent: 70
+    },
+    {
+      type: "mech-eng",
+      name: "GrabCAD",
       value: 10,
       percent: 100
     }
