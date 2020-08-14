@@ -101,8 +101,26 @@ const context = {
       percent: 80
     },
     {
+      type: "control-eng", 
+      name: "C++",
+      value: 8,
+      percent: 80
+    },
+    {
       type: "web-dev", 
       name: "Python",
+      value: 7,
+      percent: 70
+    },
+    {
+      type: "control-eng", 
+      name: "Python",
+      value: 7,
+      percent: 70
+    },
+    {
+      type: "control-eng", 
+      name: "C",
       value: 7,
       percent: 70
     },
@@ -139,14 +157,14 @@ const context = {
     {
       type: "web-dev", 
       name: "React",
-      value: 1,
-      percent: 10
+      value: 6,
+      percent: 60
     },
     {
       type: "web-dev", 
       name: "Node",
-      value: 1,
-      percent: 10
+      value: 4,
+      percent: 40
     },
     {
       type: "emb-dev", 
@@ -245,12 +263,6 @@ const context = {
       percent: 60
     },
     {
-      type: "emb-dev", 
-      name: "Node",
-      value: 1,
-      percent: 10
-    },
-    {
       type: "web-dev",
       name: "Express",
       value: 1,
@@ -283,14 +295,14 @@ const context = {
     {
       type: "web-dev", 
       name: "Bootstrap",
-      value: 1,
-      percent: 10
+      value: 4,
+      percent: 40
     },
     {
       type: "web-dev", 
       name: "Sass",
-      value: 1,
-      percent: 10
+      value: 4,
+      percent: 40
     }, 
     {
       type: "web-dev", 
@@ -360,9 +372,57 @@ const context = {
     },
     {
       type: "control-eng",
-      name: "MIMO",
+      name: "MIMO Control",
+      value: 8,
+      percent: 80
+    },
+    {
+      type: "control-eng",
+      name: "Non-Linear Control",
+      value: 7,
+      percent: 70
+    },
+    {
+      type: "control-eng",
+      name: "Classical Control",
       value: 10,
       percent: 100
+    },
+    {
+      type: "control-eng",
+      name: "Modern Control",
+      value: 9,
+      percent: 90
+    },
+    {
+      type: "control-eng",
+      name: "Robust Control",
+      value: 8,
+      percent: 80
+    },
+    {
+      type: "control-eng",
+      name: "Stochastic Control",
+      value: 7,
+      percent: 70
+    },
+    {
+      type: "control-eng",
+      name: "Adaptive Control",
+      value: 4,
+      percent: 40
+    },
+    {
+      type: "control-eng",
+      name: "Aerospace Control",
+      value: 9,
+      percent: 90
+    },
+    {
+      type: "control-eng",
+      name: "Robotics Control",
+      value: 9,
+      percent: 90
     }
   ],
 
