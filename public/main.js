@@ -60,7 +60,7 @@ const context = {
     {
       date:"Oct.2014~ Now",
       location:"Montreal,QC,Canada",
-      image: "https://fusionjeunesse.org/wp-content/uploads/2020/03/Youth-Fusion-noir-300x208.png",
+      image: "https://d1c2gz5q23tkk0.cloudfront.net/assets/network_events/10858/cover_picture/-default.png?1537967914",
       jobTitle: "Robotics Volunteer/Robotics Coordinator",
       workplace: "Fusion Jeunesse",
       jobDescription: [ "Design a mobile robot from ‘’Top to bottom’’ and manage a team of students, technicians and engineers.", "Create mechanical/ electrical design, perform manufacturing/assembly and develop robot software (LabVIEW/Java).", "Plan budget and milestone." ]
